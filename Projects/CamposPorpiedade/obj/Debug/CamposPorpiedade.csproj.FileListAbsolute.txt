@@ -1,0 +1,9 @@
+C:\Users\eu\Documents\Visual Studio 2019\Projects\CamposPorpiedade\bin\Debug\CamposPorpiedade.exe
+C:\Users\eu\Documents\Visual Studio 2019\Projects\CamposPorpiedade\bin\Debug\CamposPorpiedade.pdb
+C:\Users\eu\Documents\Visual Studio 2019\Projects\CamposPorpiedade\obj\Debug\CamposPorpiedade.csprojAssemblyReference.cache
+C:\Users\eu\Documents\Visual Studio 2019\Projects\CamposPorpiedade\obj\Debug\CamposPorpiedade.Form1.resources
+C:\Users\eu\Documents\Visual Studio 2019\Projects\CamposPorpiedade\obj\Debug\CamposPorpiedade.Properties.Resources.resources
+C:\Users\eu\Documents\Visual Studio 2019\Projects\CamposPorpiedade\obj\Debug\CamposPorpiedade.csproj.GenerateResource.cache
+C:\Users\eu\Documents\Visual Studio 2019\Projects\CamposPorpiedade\obj\Debug\CamposPorpiedade.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\Visual Studio 2019\Projects\CamposPorpiedade\obj\Debug\CamposPorpiedade.exe
+C:\Users\eu\Documents\Visual Studio 2019\Projects\CamposPorpiedade\obj\Debug\CamposPorpiedade.pdb

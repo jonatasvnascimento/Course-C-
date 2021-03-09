@@ -1,0 +1,9 @@
+C:\Users\eu\Documents\Visual Studio 2019\Projects\ClaseParcial\bin\Debug\ClaseParcial.exe
+C:\Users\eu\Documents\Visual Studio 2019\Projects\ClaseParcial\bin\Debug\ClaseParcial.pdb
+C:\Users\eu\Documents\Visual Studio 2019\Projects\ClaseParcial\obj\Debug\ClasseParcial.csprojAssemblyReference.cache
+C:\Users\eu\Documents\Visual Studio 2019\Projects\ClaseParcial\obj\Debug\ClasseParcial.Form1.resources
+C:\Users\eu\Documents\Visual Studio 2019\Projects\ClaseParcial\obj\Debug\ClaseParcial.Properties.Resources.resources
+C:\Users\eu\Documents\Visual Studio 2019\Projects\ClaseParcial\obj\Debug\ClasseParcial.csproj.GenerateResource.cache
+C:\Users\eu\Documents\Visual Studio 2019\Projects\ClaseParcial\obj\Debug\ClasseParcial.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\Visual Studio 2019\Projects\ClaseParcial\obj\Debug\ClaseParcial.exe
+C:\Users\eu\Documents\Visual Studio 2019\Projects\ClaseParcial\obj\Debug\ClaseParcial.pdb

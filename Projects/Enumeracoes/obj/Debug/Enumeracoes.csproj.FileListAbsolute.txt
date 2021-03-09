@@ -1,0 +1,9 @@
+C:\Users\eu\Documents\Visual Studio 2019\Projects\Enumeracoes\bin\Debug\Enumeracoes.exe
+C:\Users\eu\Documents\Visual Studio 2019\Projects\Enumeracoes\bin\Debug\Enumeracoes.pdb
+C:\Users\eu\Documents\Visual Studio 2019\Projects\Enumeracoes\obj\Debug\Enumeracoes.csprojAssemblyReference.cache
+C:\Users\eu\Documents\Visual Studio 2019\Projects\Enumeracoes\obj\Debug\Enumeracoes.Form1.resources
+C:\Users\eu\Documents\Visual Studio 2019\Projects\Enumeracoes\obj\Debug\Enumeracoes.Properties.Resources.resources
+C:\Users\eu\Documents\Visual Studio 2019\Projects\Enumeracoes\obj\Debug\Enumeracoes.csproj.GenerateResource.cache
+C:\Users\eu\Documents\Visual Studio 2019\Projects\Enumeracoes\obj\Debug\Enumeracoes.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\Visual Studio 2019\Projects\Enumeracoes\obj\Debug\Enumeracoes.exe
+C:\Users\eu\Documents\Visual Studio 2019\Projects\Enumeracoes\obj\Debug\Enumeracoes.pdb
