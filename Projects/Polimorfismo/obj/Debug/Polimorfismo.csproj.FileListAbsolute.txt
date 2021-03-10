@@ -1,0 +1,9 @@
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Polimorfismo\bin\Debug\Polimorfismo.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Polimorfismo\bin\Debug\Polimorfismo.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Polimorfismo\obj\Debug\Polimorfismo.csprojAssemblyReference.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Polimorfismo\obj\Debug\Polimorfismo.Form1.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Polimorfismo\obj\Debug\Polimorfismo.Properties.Resources.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Polimorfismo\obj\Debug\Polimorfismo.csproj.GenerateResource.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Polimorfismo\obj\Debug\Polimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Polimorfismo\obj\Debug\Polimorfismo.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Polimorfismo\obj\Debug\Polimorfismo.pdb

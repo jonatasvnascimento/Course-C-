@@ -1,0 +1,9 @@
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formulario\bin\Debug\Formulario.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formulario\bin\Debug\Formulario.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formulario\obj\Debug\Formulario.csprojAssemblyReference.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formulario\obj\Debug\Formulario.frmMain.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formulario\obj\Debug\Formulario.Properties.Resources.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formulario\obj\Debug\Formulario.csproj.GenerateResource.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formulario\obj\Debug\Formulario.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formulario\obj\Debug\Formulario.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formulario\obj\Debug\Formulario.pdb
