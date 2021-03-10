@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6A2807D8-C70B-4606-A8D3-13C9EF0F4235}</ProjectGuid>
+    <ProjectGuid>{B01D47D0-F036-4D76-85F0-849D6306B26D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Herança</RootNamespace>
-    <AssemblyName>Herança</AssemblyName>
+    <RootNamespace>Polimorfismo</RootNamespace>
+    <AssemblyName>Polimorfismo</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cl_bicicleta.cs" />
-    <Compile Include="cl_carro.cs" />
-    <Compile Include="cl_veiculo.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,11 +51,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="teste.cs" />
-    <Compile Include="teste2.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

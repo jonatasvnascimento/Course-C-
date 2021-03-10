@@ -15,5 +15,21 @@ namespace Herança
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Cl_carro carro = new Cl_carro();
+            cl_bicicleta bicicleta = new cl_bicicleta();
+
+            carro.Acelerar();
+            bicicleta.Acelerar();
+
+            carro.Parar();
+            bicicleta.Parar();
+
+
+
+
+        }
     }
 }
