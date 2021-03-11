@@ -1,7 +1,7 @@
 ﻿
 namespace EnvioRetorno
 {
-    partial class Form1
+    partial class frm1
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -29,13 +29,46 @@ namespace EnvioRetorno
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.cmd_avancar = new System.Windows.Forms.Button();
+            this.label_texto = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // cmd_avancar
+            // 
+            this.cmd_avancar.Location = new System.Drawing.Point(440, 364);
+            this.cmd_avancar.Name = "cmd_avancar";
+            this.cmd_avancar.Size = new System.Drawing.Size(103, 51);
+            this.cmd_avancar.TabIndex = 0;
+            this.cmd_avancar.Text = "Executar";
+            this.cmd_avancar.UseVisualStyleBackColor = true;
+            this.cmd_avancar.Click += new System.EventHandler(this.cmd_avancar_Click);
+            // 
+            // label_texto
+            // 
+            this.label_texto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label_texto.Location = new System.Drawing.Point(12, 9);
+            this.label_texto.Name = "label_texto";
+            this.label_texto.Size = new System.Drawing.Size(531, 56);
+            this.label_texto.TabIndex = 1;
+            this.label_texto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // frm1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(555, 427);
+            this.Controls.Add(this.label_texto);
+            this.Controls.Add(this.cmd_avancar);
+            this.Name = "frm1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button cmd_avancar;
+        private System.Windows.Forms.Label label_texto;
     }
 }
 

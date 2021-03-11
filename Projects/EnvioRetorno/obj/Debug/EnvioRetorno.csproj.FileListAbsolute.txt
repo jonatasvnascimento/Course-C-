@@ -1,0 +1,10 @@
+C:\Users\eu\Documents\GitHub\Course-C\Projects\EnvioRetorno\bin\Debug\EnvioRetorno.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\EnvioRetorno\bin\Debug\EnvioRetorno.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\EnvioRetorno\obj\Debug\EnvioRetorno.frm1.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\EnvioRetorno\obj\Debug\EnvioRetorno.frm2.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\EnvioRetorno\obj\Debug\EnvioRetorno.Properties.Resources.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\EnvioRetorno\obj\Debug\EnvioRetorno.csproj.GenerateResource.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\EnvioRetorno\obj\Debug\EnvioRetorno.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\EnvioRetorno\obj\Debug\EnvioRetorno.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\EnvioRetorno\obj\Debug\EnvioRetorno.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\EnvioRetorno\obj\Debug\EnvioRetorno.csprojAssemblyReference.cache
