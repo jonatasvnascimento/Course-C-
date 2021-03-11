@@ -1,0 +1,11 @@
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formularios\bin\Debug\Formularios.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formularios\bin\Debug\Formularios.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formularios\obj\Debug\Formularios.csprojAssemblyReference.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formularios\obj\Debug\Formularios.frmPrimeiro.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formularios\obj\Debug\Formularios.frmUm.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formularios\obj\Debug\Formularios.Properties.Resources.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formularios\obj\Debug\Formularios.csproj.GenerateResource.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formularios\obj\Debug\Formularios.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formularios\obj\Debug\Formularios.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formularios\obj\Debug\Formularios.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Formularios\obj\Debug\Formularios.frmDois.resources
