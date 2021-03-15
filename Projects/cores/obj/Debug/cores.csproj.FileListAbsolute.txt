@@ -1,0 +1,9 @@
+C:\Users\eu\Documents\GitHub\Course-C\Projects\cores\bin\Debug\cores.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\cores\bin\Debug\cores.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\cores\obj\Debug\cores.csprojAssemblyReference.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\cores\obj\Debug\cores.Form1.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\cores\obj\Debug\cores.Properties.Resources.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\cores\obj\Debug\cores.csproj.GenerateResource.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\cores\obj\Debug\cores.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\cores\obj\Debug\cores.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\cores\obj\Debug\cores.pdb

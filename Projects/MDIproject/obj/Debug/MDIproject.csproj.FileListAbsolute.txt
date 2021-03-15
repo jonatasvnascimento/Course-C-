@@ -1,0 +1,10 @@
+C:\Users\eu\Documents\GitHub\Course-C\Projects\MDIproject\bin\Debug\MDIproject.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\MDIproject\bin\Debug\MDIproject.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\MDIproject\obj\Debug\MDIproject.csprojAssemblyReference.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\MDIproject\obj\Debug\MDIproject.form_main.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\MDIproject\obj\Debug\MDIproject.Properties.Resources.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\MDIproject\obj\Debug\MDIproject.csproj.GenerateResource.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\MDIproject\obj\Debug\MDIproject.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\MDIproject\obj\Debug\MDIproject.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\MDIproject\obj\Debug\MDIproject.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\MDIproject\obj\Debug\MDIproject.form_um.resources

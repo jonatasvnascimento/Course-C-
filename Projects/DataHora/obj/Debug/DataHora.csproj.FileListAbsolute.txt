@@ -1,0 +1,9 @@
+C:\Users\eu\Documents\GitHub\Course-C\Projects\DataHora\bin\Debug\DataHora.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\DataHora\bin\Debug\DataHora.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\DataHora\obj\Debug\DataHora.csprojAssemblyReference.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\DataHora\obj\Debug\DataHora.Form1.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\DataHora\obj\Debug\DataHora.Properties.Resources.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\DataHora\obj\Debug\DataHora.csproj.GenerateResource.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\DataHora\obj\Debug\DataHora.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\DataHora\obj\Debug\DataHora.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\DataHora\obj\Debug\DataHora.pdb
