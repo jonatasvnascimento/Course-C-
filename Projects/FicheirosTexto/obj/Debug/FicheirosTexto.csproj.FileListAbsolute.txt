@@ -1,0 +1,9 @@
+C:\Users\eu\Documents\GitHub\Course-C\Projects\FicheirosTexto\bin\Debug\FicheirosTexto.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\FicheirosTexto\bin\Debug\FicheirosTexto.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\FicheirosTexto\obj\Debug\FicheirosTexto.csprojAssemblyReference.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\FicheirosTexto\obj\Debug\FicheirosTexto.Form1.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\FicheirosTexto\obj\Debug\FicheirosTexto.Properties.Resources.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\FicheirosTexto\obj\Debug\FicheirosTexto.csproj.GenerateResource.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\FicheirosTexto\obj\Debug\FicheirosTexto.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\FicheirosTexto\obj\Debug\FicheirosTexto.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\FicheirosTexto\obj\Debug\FicheirosTexto.pdb
