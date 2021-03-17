@@ -1,0 +1,9 @@
+C:\Users\eu\source\repos\PastaseFicheiros\bin\Debug\PastaseFicheiros.exe
+C:\Users\eu\source\repos\PastaseFicheiros\bin\Debug\PastaseFicheiros.pdb
+C:\Users\eu\source\repos\PastaseFicheiros\obj\Debug\PastaseFicheiros.csprojAssemblyReference.cache
+C:\Users\eu\source\repos\PastaseFicheiros\obj\Debug\PastaseFicheiros.Form1.resources
+C:\Users\eu\source\repos\PastaseFicheiros\obj\Debug\PastaseFicheiros.Properties.Resources.resources
+C:\Users\eu\source\repos\PastaseFicheiros\obj\Debug\PastaseFicheiros.csproj.GenerateResource.cache
+C:\Users\eu\source\repos\PastaseFicheiros\obj\Debug\PastaseFicheiros.csproj.CoreCompileInputs.cache
+C:\Users\eu\source\repos\PastaseFicheiros\obj\Debug\PastaseFicheiros.exe
+C:\Users\eu\source\repos\PastaseFicheiros\obj\Debug\PastaseFicheiros.pdb
