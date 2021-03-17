@@ -1,0 +1,9 @@
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Conversao\bin\Debug\Conversao.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Conversao\bin\Debug\Conversao.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Conversao\obj\Debug\Conversao.csprojAssemblyReference.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Conversao\obj\Debug\Conversao.Form1.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Conversao\obj\Debug\Conversao.Properties.Resources.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Conversao\obj\Debug\Conversao.csproj.GenerateResource.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Conversao\obj\Debug\Conversao.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Conversao\obj\Debug\Conversao.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\Conversao\obj\Debug\Conversao.pdb
