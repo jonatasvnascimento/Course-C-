@@ -1,0 +1,9 @@
+C:\Users\eu\Documents\GitHub\Course-C\Projects\ApagarPastaFicheiros\bin\Debug\ApagarPastaFicheiros.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\ApagarPastaFicheiros\bin\Debug\ApagarPastaFicheiros.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\ApagarPastaFicheiros\obj\Debug\ApagarPastaFicheiros.Form1.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\ApagarPastaFicheiros\obj\Debug\ApagarPastaFicheiros.Properties.Resources.resources
+C:\Users\eu\Documents\GitHub\Course-C\Projects\ApagarPastaFicheiros\obj\Debug\ApagarPastaFicheiros.csproj.GenerateResource.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\ApagarPastaFicheiros\obj\Debug\ApagarPastaFicheiros.csproj.CoreCompileInputs.cache
+C:\Users\eu\Documents\GitHub\Course-C\Projects\ApagarPastaFicheiros\obj\Debug\ApagarPastaFicheiros.exe
+C:\Users\eu\Documents\GitHub\Course-C\Projects\ApagarPastaFicheiros\obj\Debug\ApagarPastaFicheiros.pdb
+C:\Users\eu\Documents\GitHub\Course-C\Projects\ApagarPastaFicheiros\obj\Debug\ApagarPastaFicheiros.csprojAssemblyReference.cache
