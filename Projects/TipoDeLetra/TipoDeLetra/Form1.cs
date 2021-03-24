@@ -17,5 +17,12 @@ namespace TipoDeLetra
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Font letra = new Font("Helvetica", 14, FontStyle.Regular | FontStyle.Bold, GraphicsUnit.Pixel) ;
+            label1.Font = letra;
+            label1.ForeColor = Color.Red;
+
+        }
     }
 }
