@@ -16,3 +16,4 @@ C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5
 C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\ref\Agenda.dll
 C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.pdb
 C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.genruntimeconfig.cache
+C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.FormInserirEditar.resources

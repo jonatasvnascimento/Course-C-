@@ -22,7 +22,20 @@ namespace Agenda
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+        }
+
+        private void btn_sair_Click(object sender, EventArgs e)
+        {
+            //sair da aplicação
+            if (MessageBox.Show("Deseja sair da aplicação?","SAIR", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No) return;
+            Application.Exit();
+        }
+
+        private void cmd_inserir_editar_Click(object sender, EventArgs e)
+        {
+            //abre aba inserir e editar
+            FormInserirEditar formulario = new FormInserirEditar();
+            formulario.ShowDialog();
         }
     }
 }

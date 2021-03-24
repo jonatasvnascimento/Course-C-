@@ -29,27 +29,28 @@ namespace Agenda
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_inserir_editar = new System.Windows.Forms.Button();
+            this.cmd_inserir_editar = new System.Windows.Forms.Button();
             this.lbl_titulo = new System.Windows.Forms.Label();
             this.lbl_version = new System.Windows.Forms.Label();
-            this.btn_pesquisar = new System.Windows.Forms.Button();
-            this.btn_sair = new System.Windows.Forms.Button();
+            this.cmd_pesquisar = new System.Windows.Forms.Button();
+            this.cmd_sair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btn_inserir_editar
+            // cmd_inserir_editar
             // 
-            this.btn_inserir_editar.Location = new System.Drawing.Point(102, 98);
-            this.btn_inserir_editar.Name = "btn_inserir_editar";
-            this.btn_inserir_editar.Size = new System.Drawing.Size(213, 70);
-            this.btn_inserir_editar.TabIndex = 0;
-            this.btn_inserir_editar.Text = "Inserir | Editar";
-            this.btn_inserir_editar.UseVisualStyleBackColor = true;
+            this.cmd_inserir_editar.Location = new System.Drawing.Point(92, 98);
+            this.cmd_inserir_editar.Name = "cmd_inserir_editar";
+            this.cmd_inserir_editar.Size = new System.Drawing.Size(213, 70);
+            this.cmd_inserir_editar.TabIndex = 0;
+            this.cmd_inserir_editar.Text = "Inserir | Editar";
+            this.cmd_inserir_editar.UseVisualStyleBackColor = true;
+            this.cmd_inserir_editar.Click += new System.EventHandler(this.cmd_inserir_editar_Click);
             // 
             // lbl_titulo
             // 
             this.lbl_titulo.AutoSize = true;
             this.lbl_titulo.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_titulo.Location = new System.Drawing.Point(113, 18);
+            this.lbl_titulo.Location = new System.Drawing.Point(103, 18);
             this.lbl_titulo.Name = "lbl_titulo";
             this.lbl_titulo.Size = new System.Drawing.Size(191, 65);
             this.lbl_titulo.TabIndex = 1;
@@ -64,34 +65,37 @@ namespace Agenda
             this.lbl_version.TabIndex = 2;
             this.lbl_version.Text = "Version";
             // 
-            // btn_pesquisar
+            // cmd_pesquisar
             // 
-            this.btn_pesquisar.Location = new System.Drawing.Point(102, 174);
-            this.btn_pesquisar.Name = "btn_pesquisar";
-            this.btn_pesquisar.Size = new System.Drawing.Size(213, 70);
-            this.btn_pesquisar.TabIndex = 3;
-            this.btn_pesquisar.Text = "Pesquisar";
-            this.btn_pesquisar.UseVisualStyleBackColor = true;
+            this.cmd_pesquisar.Location = new System.Drawing.Point(92, 174);
+            this.cmd_pesquisar.Name = "cmd_pesquisar";
+            this.cmd_pesquisar.Size = new System.Drawing.Size(213, 70);
+            this.cmd_pesquisar.TabIndex = 3;
+            this.cmd_pesquisar.Text = "Pesquisar";
+            this.cmd_pesquisar.UseVisualStyleBackColor = true;
             // 
-            // btn_sair
+            // cmd_sair
             // 
-            this.btn_sair.Location = new System.Drawing.Point(102, 250);
-            this.btn_sair.Name = "btn_sair";
-            this.btn_sair.Size = new System.Drawing.Size(213, 70);
-            this.btn_sair.TabIndex = 4;
-            this.btn_sair.Text = "Sair";
-            this.btn_sair.UseVisualStyleBackColor = true;
+            this.cmd_sair.Location = new System.Drawing.Point(92, 250);
+            this.cmd_sair.Name = "cmd_sair";
+            this.cmd_sair.Size = new System.Drawing.Size(213, 70);
+            this.cmd_sair.TabIndex = 4;
+            this.cmd_sair.Text = "Sair";
+            this.cmd_sair.UseVisualStyleBackColor = true;
+            this.cmd_sair.Click += new System.EventHandler(this.btn_sair_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(396, 403);
-            this.Controls.Add(this.btn_sair);
-            this.Controls.Add(this.btn_pesquisar);
+            this.Controls.Add(this.cmd_sair);
+            this.Controls.Add(this.cmd_pesquisar);
             this.Controls.Add(this.lbl_version);
             this.Controls.Add(this.lbl_titulo);
-            this.Controls.Add(this.btn_inserir_editar);
+            this.Controls.Add(this.cmd_inserir_editar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
             this.Text = "Agenda";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -102,11 +106,11 @@ namespace Agenda
 
         #endregion
 
-        private System.Windows.Forms.Button btn_inserir_editar;
+        private System.Windows.Forms.Button cmd_inserir_editar;
         private System.Windows.Forms.Label lbl_titulo;
         private System.Windows.Forms.Label lbl_version;
-        private System.Windows.Forms.Button btn_pesquisar;
-        private System.Windows.Forms.Button btn_sair;
+        private System.Windows.Forms.Button cmd_pesquisar;
+        private System.Windows.Forms.Button cmd_sair;
     }
 }
 
