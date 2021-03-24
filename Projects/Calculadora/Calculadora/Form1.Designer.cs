@@ -33,11 +33,12 @@ namespace Calculadora
             this.cmd_calcular = new System.Windows.Forms.Button();
             this.text_operacao = new System.Windows.Forms.TextBox();
             this.label_algoritmo = new System.Windows.Forms.Label();
+            this.lbl_result_calc = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cmd_sair
             // 
-            this.cmd_sair.Location = new System.Drawing.Point(55, 124);
+            this.cmd_sair.Location = new System.Drawing.Point(47, 133);
             this.cmd_sair.Name = "cmd_sair";
             this.cmd_sair.Size = new System.Drawing.Size(112, 34);
             this.cmd_sair.TabIndex = 2;
@@ -47,7 +48,7 @@ namespace Calculadora
             // 
             // cmd_calcular
             // 
-            this.cmd_calcular.Location = new System.Drawing.Point(173, 124);
+            this.cmd_calcular.Location = new System.Drawing.Point(165, 133);
             this.cmd_calcular.Name = "cmd_calcular";
             this.cmd_calcular.Size = new System.Drawing.Size(112, 34);
             this.cmd_calcular.TabIndex = 1;
@@ -57,26 +58,35 @@ namespace Calculadora
             // 
             // text_operacao
             // 
-            this.text_operacao.Location = new System.Drawing.Point(55, 87);
+            this.text_operacao.Location = new System.Drawing.Point(47, 61);
             this.text_operacao.MaxLength = 30;
             this.text_operacao.Name = "text_operacao";
             this.text_operacao.Size = new System.Drawing.Size(230, 31);
             this.text_operacao.TabIndex = 0;
+            this.text_operacao.KeyDown += new System.Windows.Forms.KeyEventHandler(this.text_operacao_KeyDown);
             // 
             // label_algoritmo
             // 
             this.label_algoritmo.AutoSize = true;
-            this.label_algoritmo.Location = new System.Drawing.Point(55, 59);
+            this.label_algoritmo.Location = new System.Drawing.Point(47, 33);
             this.label_algoritmo.Name = "label_algoritmo";
             this.label_algoritmo.Size = new System.Drawing.Size(177, 25);
             this.label_algoritmo.TabIndex = 3;
             this.label_algoritmo.Text = "Escreva o algoritimo:";
+            // 
+            // lbl_result_calc
+            // 
+            this.lbl_result_calc.Location = new System.Drawing.Point(47, 100);
+            this.lbl_result_calc.Name = "lbl_result_calc";
+            this.lbl_result_calc.Size = new System.Drawing.Size(230, 30);
+            this.lbl_result_calc.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(347, 205);
+            this.Controls.Add(this.lbl_result_calc);
             this.Controls.Add(this.label_algoritmo);
             this.Controls.Add(this.text_operacao);
             this.Controls.Add(this.cmd_calcular);
@@ -97,6 +107,7 @@ namespace Calculadora
         private System.Windows.Forms.TextBox text_operacao;
         private System.Windows.Forms.Label label_algoritmo;
         private System.Windows.Forms.Button cmd_calcular;
+        private System.Windows.Forms.Label lbl_result_calc;
     }
 }
 

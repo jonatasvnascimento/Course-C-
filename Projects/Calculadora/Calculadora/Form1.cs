@@ -26,9 +26,10 @@ namespace Calculadora
         {
             int parcela1;
             int parcela2;
+            int resultado = -1;
             string tipo_operação;
             string algoritmo = text_operacao.Text;
-            string sinais = "+-*/";
+            string sinais = "+-*/%";
             int index = 0;
 
             //verificação do que tem no campo text_operação
@@ -44,9 +45,57 @@ namespace Calculadora
                         tipo_operação = c.ToString();
                         //parcela2
                         parcela2 = int.Parse(algoritmo.Substring(index + 1));
+
+                        //analiza a operação
+                        switch (tipo_operação)
+                        {
+                            case "+":
+                                resultado = parcela1 + parcela2;
+                                break;
+                            case "-":
+                                resultado = parcela1 - parcela2;
+                                break;
+                            case "*":
+                                resultado = parcela2 * parcela2;
+                                break;
+                            case "/":
+                                resultado = parcela1 / parcela2;
+                                break;
+                            case "%":
+                                resultado = parcela1 % parcela2;
+                                break;
+
+                        }
+                        break;
                     }
                 }
+
+                if (resultado != -1)
+                    break;
                 index++;
+            }
+            if (resultado == -1)
+                lbl_result_calc.Text = "Valor invalido";
+            else
+                lbl_result_calc.Text = resultado.ToString();
+                //text_operacao.Text = resultado.ToString();
+                //MessageBox.Show($"{algoritmo} = {resultado}");
+
+
+            text_operacao.Text = "";
+            text_operacao.Focus();
+        }
+
+        private void text_operacao_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (text_operacao.Text == "") return;
+
+            if (e.KeyCode == Keys.Return)
+                cmd_calcular_Click(cmd_calcular, EventArgs.Empty);
+            else if(e.KeyCode == Keys.Escape)
+            {
+                text_operacao.Text = "";
+                text_operacao.Focus();
             }
         }
     }
