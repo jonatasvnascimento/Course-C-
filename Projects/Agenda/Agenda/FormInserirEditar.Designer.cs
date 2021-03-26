@@ -77,17 +77,22 @@ namespace Agenda
             // 
             // cmd_fechar
             // 
+            this.cmd_fechar.BackColor = System.Drawing.Color.Gray;
+            this.cmd_fechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmd_fechar.ForeColor = System.Drawing.Color.White;
             this.cmd_fechar.Location = new System.Drawing.Point(449, 498);
             this.cmd_fechar.Name = "cmd_fechar";
             this.cmd_fechar.Size = new System.Drawing.Size(112, 34);
             this.cmd_fechar.TabIndex = 4;
             this.cmd_fechar.Text = "Fechar";
-            this.cmd_fechar.UseVisualStyleBackColor = true;
+            this.cmd_fechar.UseVisualStyleBackColor = false;
             this.cmd_fechar.Click += new System.EventHandler(this.cmd_fechar_Click);
             // 
             // cmd_gravar
             // 
-            this.cmd_gravar.BackColor = System.Drawing.SystemColors.Control;
+            this.cmd_gravar.BackColor = System.Drawing.Color.Gray;
+            this.cmd_gravar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmd_gravar.ForeColor = System.Drawing.Color.White;
             this.cmd_gravar.Location = new System.Drawing.Point(132, 86);
             this.cmd_gravar.Name = "cmd_gravar";
             this.cmd_gravar.Size = new System.Drawing.Size(112, 34);
@@ -124,21 +129,27 @@ namespace Agenda
             // 
             // cmd_apagar
             // 
+            this.cmd_apagar.BackColor = System.Drawing.Color.Gray;
+            this.cmd_apagar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmd_apagar.ForeColor = System.Drawing.Color.White;
             this.cmd_apagar.Location = new System.Drawing.Point(331, 498);
             this.cmd_apagar.Name = "cmd_apagar";
             this.cmd_apagar.Size = new System.Drawing.Size(112, 34);
             this.cmd_apagar.TabIndex = 9;
             this.cmd_apagar.Text = "Apagar";
-            this.cmd_apagar.UseVisualStyleBackColor = true;
+            this.cmd_apagar.UseVisualStyleBackColor = false;
             // 
             // cmd_editar
             // 
+            this.cmd_editar.BackColor = System.Drawing.Color.Gray;
+            this.cmd_editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmd_editar.ForeColor = System.Drawing.Color.White;
             this.cmd_editar.Location = new System.Drawing.Point(213, 498);
             this.cmd_editar.Name = "cmd_editar";
             this.cmd_editar.Size = new System.Drawing.Size(112, 34);
             this.cmd_editar.TabIndex = 10;
             this.cmd_editar.Text = "Editar";
-            this.cmd_editar.UseVisualStyleBackColor = true;
+            this.cmd_editar.UseVisualStyleBackColor = false;
             // 
             // FormInserirEditar
             // 

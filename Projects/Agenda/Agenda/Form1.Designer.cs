@@ -38,12 +38,15 @@ namespace Agenda
             // 
             // cmd_inserir_editar
             // 
+            this.cmd_inserir_editar.BackColor = System.Drawing.Color.Gray;
+            this.cmd_inserir_editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmd_inserir_editar.ForeColor = System.Drawing.Color.White;
             this.cmd_inserir_editar.Location = new System.Drawing.Point(92, 98);
             this.cmd_inserir_editar.Name = "cmd_inserir_editar";
             this.cmd_inserir_editar.Size = new System.Drawing.Size(213, 70);
             this.cmd_inserir_editar.TabIndex = 0;
             this.cmd_inserir_editar.Text = "Inserir | Editar";
-            this.cmd_inserir_editar.UseVisualStyleBackColor = true;
+            this.cmd_inserir_editar.UseVisualStyleBackColor = false;
             this.cmd_inserir_editar.Click += new System.EventHandler(this.cmd_inserir_editar_Click);
             // 
             // lbl_titulo
@@ -67,21 +70,27 @@ namespace Agenda
             // 
             // cmd_pesquisar
             // 
+            this.cmd_pesquisar.BackColor = System.Drawing.Color.Gray;
+            this.cmd_pesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmd_pesquisar.ForeColor = System.Drawing.Color.White;
             this.cmd_pesquisar.Location = new System.Drawing.Point(92, 174);
             this.cmd_pesquisar.Name = "cmd_pesquisar";
             this.cmd_pesquisar.Size = new System.Drawing.Size(213, 70);
             this.cmd_pesquisar.TabIndex = 3;
             this.cmd_pesquisar.Text = "Pesquisar";
-            this.cmd_pesquisar.UseVisualStyleBackColor = true;
+            this.cmd_pesquisar.UseVisualStyleBackColor = false;
             // 
             // cmd_sair
             // 
+            this.cmd_sair.BackColor = System.Drawing.Color.Gray;
+            this.cmd_sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmd_sair.ForeColor = System.Drawing.Color.White;
             this.cmd_sair.Location = new System.Drawing.Point(92, 250);
             this.cmd_sair.Name = "cmd_sair";
             this.cmd_sair.Size = new System.Drawing.Size(213, 70);
             this.cmd_sair.TabIndex = 4;
             this.cmd_sair.Text = "Sair";
-            this.cmd_sair.UseVisualStyleBackColor = true;
+            this.cmd_sair.UseVisualStyleBackColor = false;
             this.cmd_sair.Click += new System.EventHandler(this.btn_sair_Click);
             // 
             // Form1
