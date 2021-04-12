@@ -6,7 +6,6 @@ C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\bin\Debug\net5
 C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\bin\Debug\net5.0-windows\ref\Agenda.dll
 C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\bin\Debug\net5.0-windows\Agenda.pdb
 C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.csprojAssemblyReference.cache
-C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.Form1.resources
 C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.csproj.GenerateResource.cache
 C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.AssemblyInfoInputs.cache
@@ -17,3 +16,4 @@ C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5
 C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.pdb
 C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.genruntimeconfig.cache
 C:\Users\jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.FormInserirEditar.resources
+C:\Users\Jonatas\Documents\GitHub\Course-C\Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.FormMenu.resources

@@ -1,7 +1,7 @@
 ﻿
 namespace Agenda
 {
-    partial class Form1
+    partial class FormMenu
     {
         /// <summary>
         ///  Required designer variable.

@@ -10,5 +10,7 @@ namespace Agenda
     {
         public string nome { get; set; }
         public string numero { get; set; }
+        public string cep { get; set; }
+        public string email { get; set; }
     }
 }

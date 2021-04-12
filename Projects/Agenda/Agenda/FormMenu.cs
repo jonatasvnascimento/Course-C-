@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace Agenda
 {
-    public partial class Form1 : Form
+    public partial class FormMenu : Form
     {
-        public Form1()
+        public FormMenu()
         {
             
             InitializeComponent();
+      
+            //Carrega os contatos
+            cl_geral.ConstroiListaContactos();
+
             //apresentar verção do projeto da classe cl_geral
             lbl_version.Text = cl_geral.version;
         }
