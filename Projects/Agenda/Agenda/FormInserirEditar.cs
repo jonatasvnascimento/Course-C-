@@ -13,6 +13,7 @@ namespace Agenda
 {
     public partial class FormInserirEditar : Form
     {
+        int indice;
         public FormInserirEditar()
         {
             InitializeComponent();
@@ -32,9 +33,13 @@ namespace Agenda
             lista_contactos.Items.Clear();
             foreach (cl_contacto contacto in cl_geral.LISTA_CONTACTOS)
             {
-                lista_contactos.Items.Add($"{contacto.nome}       | {contacto.numero}     | {contacto.cep}  | {contacto.email}");
+                lista_contactos.Items.Add($"{contacto.nome} ({contacto.numero}) - {contacto.cep} {contacto.email}");
             }
             label_numero_registros.Text = $"Registros: {lista_contactos.Items.Count}";
+
+            //impede a eliminação e edição de registro sem selecionar
+            cmd_apagar.Enabled = false;
+            cmd_editar.Enabled = false;
         }
 
         private void FormInserirEditar_Load(object sender, EventArgs e)
@@ -47,16 +52,9 @@ namespace Agenda
             //inseir novo resgistro a lista
 
             //verifica se todos os campos estão prenchidos
-            if(text_nome.Text == "" || text_numero.Text == "" || text_cep.Text == "" || text_email.Text == "")
-            {
-                MessageBox.Show("Os campos não estão todos preenchidos.");
-            }
-            else
-            {
-                //gravar novo registros
-                cl_geral.GravarNovoRegistro(text_nome.Text, text_numero.Text, text_cep.Text, text_email.Text);
-
-            }
+            //if(text_nome.Text == "" || text_numero.Text == "" || text_cep.Text == "" || text_email.Text == "")
+            //{
+            //}
 
             foreach (cl_contacto contacto in cl_geral.LISTA_CONTACTOS)
             {
@@ -68,13 +66,47 @@ namespace Agenda
                     MessageBox.Show("Erro! Esse registo já existe. ");
                     return;
                 }
-
-                ConstroiLista();
-
-
             }
 
+            if (text_nome.Text == "" || text_numero.Text == "" || text_cep.Text == "" || text_email.Text == "")
+            {
+                MessageBox.Show("Os campos não estão todos preenchidos.");
+                return;
+            }
+            else
+            {
+                cl_geral.GravarNovoRegistro(text_nome.Text, text_numero.Text, text_cep.Text, text_email.Text);
+            }
+            //grava novo registro
+
             //atualizar lista de contatos
+            ConstroiLista();
+
+            text_nome.Text = "";
+            text_numero.Text = "";
+            text_cep.Text = "";
+            text_email.Text = "";
+        }
+
+        private void lista_contactos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lista_contactos.SelectedIndex == -1) return;
+
+            indice = lista_contactos.SelectedIndex;
+            cmd_apagar.Enabled = true;
+            cmd_editar.Enabled = true;
+        }
+
+        private void cmd_apagar_Click(object sender, EventArgs e)
+        {
+            //apaga registro selecionado
+
+            //1 elimina o registro da lista
+            cl_geral.LISTA_CONTACTOS.RemoveAt(indice);
+            //2 renova o ficheiro
+            cl_geral.GravarFicheiro();
+            //3 recontroi a lsta de contactos
+            ConstroiLista();
         }
     }
 }

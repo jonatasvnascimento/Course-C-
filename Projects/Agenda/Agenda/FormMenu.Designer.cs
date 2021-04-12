@@ -93,7 +93,7 @@ namespace Agenda
             this.cmd_sair.UseVisualStyleBackColor = false;
             this.cmd_sair.Click += new System.EventHandler(this.btn_sair_Click);
             // 
-            // Form1
+            // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -105,7 +105,7 @@ namespace Agenda
             this.Controls.Add(this.lbl_titulo);
             this.Controls.Add(this.cmd_inserir_editar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Form1";
+            this.Name = "FormMenu";
             this.Text = "Agenda";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

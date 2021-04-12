@@ -59,7 +59,7 @@ namespace Agenda
             this.text_numero.Location = new System.Drawing.Point(132, 49);
             this.text_numero.MaxLength = 20;
             this.text_numero.Name = "text_numero";
-            this.text_numero.Size = new System.Drawing.Size(217, 31);
+            this.text_numero.Size = new System.Drawing.Size(230, 31);
             this.text_numero.TabIndex = 1;
             // 
             // label1
@@ -114,6 +114,7 @@ namespace Agenda
             this.lista_contactos.Name = "lista_contactos";
             this.lista_contactos.Size = new System.Drawing.Size(549, 329);
             this.lista_contactos.TabIndex = 6;
+            this.lista_contactos.SelectedIndexChanged += new System.EventHandler(this.lista_contactos_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -144,6 +145,7 @@ namespace Agenda
             this.cmd_apagar.TabIndex = 6;
             this.cmd_apagar.Text = "Apagar";
             this.cmd_apagar.UseVisualStyleBackColor = false;
+            this.cmd_apagar.Click += new System.EventHandler(this.cmd_apagar_Click);
             // 
             // cmd_editar
             // 
@@ -171,7 +173,7 @@ namespace Agenda
             this.text_cep.Location = new System.Drawing.Point(132, 86);
             this.text_cep.MaxLength = 20;
             this.text_cep.Name = "text_cep";
-            this.text_cep.Size = new System.Drawing.Size(217, 31);
+            this.text_cep.Size = new System.Drawing.Size(230, 31);
             this.text_cep.TabIndex = 2;
             // 
             // label5
@@ -188,7 +190,7 @@ namespace Agenda
             this.text_email.Location = new System.Drawing.Point(132, 123);
             this.text_email.MaxLength = 20;
             this.text_email.Name = "text_email";
-            this.text_email.Size = new System.Drawing.Size(217, 31);
+            this.text_email.Size = new System.Drawing.Size(230, 31);
             this.text_email.TabIndex = 3;
             // 
             // label6
@@ -224,7 +226,7 @@ namespace Agenda
             this.Controls.Add(this.text_nome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormInserirEditar";
-            this.Text = "FormInserirEditar";
+            this.Text = "INSERIR | EDITAR";
             this.Load += new System.EventHandler(this.FormInserirEditar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
