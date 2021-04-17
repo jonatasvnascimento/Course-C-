@@ -41,5 +41,18 @@ namespace Agenda
             FormInserirEditar formulario = new FormInserirEditar();
             formulario.ShowDialog();
         }
+
+        private void cmd_pesquisar_Click(object sender, EventArgs e)
+        {
+            //abre o quadro de pesquisa
+            FormTexto pesquisa = new FormTexto();
+            pesquisa.ShowDialog();
+
+            if (pesquisa.cancelado) return;
+
+            //abri quadro com resultado com pesquisas
+            FormResultado resultado = new FormResultado(pesquisa.texto);
+            resultado.ShowDialog();
+        }
     }
 }

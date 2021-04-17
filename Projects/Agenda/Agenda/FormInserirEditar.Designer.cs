@@ -188,7 +188,7 @@ namespace Agenda
             // text_email
             // 
             this.text_email.Location = new System.Drawing.Point(132, 123);
-            this.text_email.MaxLength = 20;
+            this.text_email.MaxLength = 50;
             this.text_email.Name = "text_email";
             this.text_email.Size = new System.Drawing.Size(230, 31);
             this.text_email.TabIndex = 3;
@@ -208,6 +208,7 @@ namespace Agenda
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(576, 647);
+            this.ControlBox = false;
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.text_email);
@@ -225,6 +226,8 @@ namespace Agenda
             this.Controls.Add(this.text_numero);
             this.Controls.Add(this.text_nome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormInserirEditar";
             this.Text = "INSERIR | EDITAR";
             this.Load += new System.EventHandler(this.FormInserirEditar_Load);

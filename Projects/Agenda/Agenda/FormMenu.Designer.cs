@@ -79,6 +79,7 @@ namespace Agenda
             this.cmd_pesquisar.TabIndex = 3;
             this.cmd_pesquisar.Text = "Pesquisar";
             this.cmd_pesquisar.UseVisualStyleBackColor = false;
+            this.cmd_pesquisar.Click += new System.EventHandler(this.cmd_pesquisar_Click);
             // 
             // cmd_sair
             // 
@@ -99,12 +100,15 @@ namespace Agenda
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(396, 403);
+            this.ControlBox = false;
             this.Controls.Add(this.cmd_sair);
             this.Controls.Add(this.cmd_pesquisar);
             this.Controls.Add(this.lbl_version);
             this.Controls.Add(this.lbl_titulo);
             this.Controls.Add(this.cmd_inserir_editar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormMenu";
             this.Text = "Agenda";
             this.Load += new System.EventHandler(this.Form1_Load);
