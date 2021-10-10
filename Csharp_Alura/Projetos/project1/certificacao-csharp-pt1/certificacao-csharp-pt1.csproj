@@ -59,7 +59,6 @@
     <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\5 - Booleanos\depois\Booleanos.cs" />
     <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\6 - Estruturas Definidas pelo Usuário\antes\Estruturas.cs" />
     <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\6 - Estruturas Definidas pelo Usuário\depois\Estruturas.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\6 - Estruturas Definidas pelo Usuário\depois\posicao1.cs" />
     <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\7 - Enums\antes\Enumeracoes.cs" />
     <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\7 - Enums\depois\Enumeracoes.cs" />
     <Compile Include="IAulaItem.cs" />

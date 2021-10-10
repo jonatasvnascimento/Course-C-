@@ -8,7 +8,6 @@ namespace certificacao_csharp_roteiro
 {
     class Estruturas : IAulaItem
     {
-
         public void Executar()
         {
             double Latitude1 = 13.78;
@@ -20,29 +19,30 @@ namespace certificacao_csharp_roteiro
             Console.WriteLine($"Latitude2 = {Latitude2}");
             Console.WriteLine($"Longitude2 = {Longitude2}");
 
+            PosicaoGPS posicao1;
+            posicao1.Latitude = 13.78;
+            posicao1.Longitude = 29.51;
 
-            //PosicaoGPS p1 = new PosicaoGPS();
-            //p1.Latitude = 10.15;
-            //p1.Latitude = 20.65;
+            posicao1 = new PosicaoGPS(13.78, 29.51);
 
-            PosicaoGPS position1 = new PosicaoGPS(10.15, 20.65);
-
-            Console.WriteLine(position1);
-
-
+            Console.WriteLine(posicao1);
         }
     }
 
     interface IGPS
     {
         bool EstaNoHemisferioNorte();
-
     }
 
     struct PosicaoGPS : IGPS
     {
         public double Latitude;
         public double Longitude;
+
+        //public PosicaoGPS()
+        //{
+
+        //}
 
         public PosicaoGPS(double latitude, double longitude)
         {
@@ -54,6 +54,7 @@ namespace certificacao_csharp_roteiro
         {
             return Latitude > 0;
         }
+
         public override string ToString()
         {
             return $"Latitude: {Latitude}, Longitude: {Longitude}";
